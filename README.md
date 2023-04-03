@@ -1,2 +1,2 @@
-# ilgiornale
-My recreation of the Italian newspaper "Il Giornale"
+# Il Giornale
+My recreation of the Italian newspaper "Il Giornale".
