@@ -1,0 +1,22 @@
+{
+  "name": "ilgiornale",
+  "version": "1.0.0",
+  "description": "My recreation of the Italian newspaper \"Il Giornale\". last git test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PietroCiani/ilgiornale.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PietroCiani/ilgiornale/issues"
+  },
+  "homepage": "https://github.com/PietroCiani/ilgiornale#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
