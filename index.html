@@ -9,31 +9,31 @@
         <title>ilGiornale</title>
 
     </head>
-
-
-
+    
     <body>
-        <header class="header sticky-top">
+        <header class="header">
             <!-- MAIN -->
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-xs-3">
+            <div class="container-fluid">
+                <div class="row align-items-center flex-nowrap ">
+                    <div class="col">
                         <details>
-                            
                             <summary><i class="fa fa-bars"></i></summary>
                             <i class="fa fa-times"></i>
-                            
                         </details>
                     </div>
-                    <div class="col-xs-3 pt-3" title="Vai alla home">
-                        <img src="/images/logo-full.svg" alt="Logo ilGiornale.it" width="400"/>
-                    </div>
-    
-                    <div class="col-xs-3" title="Cerca">
-                        <i class="fa fa-search"></i>
+                    <div class="row justify-content-center align-items-center py-3">
+                        <div class="col" title="Vai alla home">
+                            <img src="/images/logo-full.svg" alt="Logo ilGiornale.it" width="400"/>
+                        </div>
                     </div>
 
-                    <div class="col-xs-3">
+                    <div class="row align-items-center">
+                        <div class="col" title="Cerca">
+                            <i class="fa fa-search"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
                         <details>
                             <summary>
                                 <i class="fa fa-user-o"></i>
@@ -48,27 +48,30 @@
                                 <li>
                                     <a href="/signin">Registrati</a>
                                 </li>
+                            </ul>
                         </details>
-    
-                    </div>    
+                    </div>                            
                 </div>
             </div>
             <!-- HOT -->
             <div class="container">
-                <div class="row position-static">
-                    <span class="col-xs-6">
+                <div class="row align-items-center justify-content-start flex-nowrap">
+                    <span class="col-xs-6 d-lg-none d-xs-block pr-2">
                         IN EVIDENZA
-                        <img src="/images/hot.svg" alt="hot">
                     </span>
+                    <img src="/images/hot.svg" alt="hot" class="pr-2">
                     <div>
-                        <a href="/article1">article 1</a>
-                        <a href="/article2">article 2</a>
-                        <a href="/article3">article 3</a>
-                        <a href="/article4">article 4</a>
+                        <a href="/article1" class="pr-2">article 1</a>
+                        <a href="/article2" class="pr-2">article 2</a>
+                        <a href="/article3" class="pr-2">article 3</a>
+                        <a href="/article4" class="pr-2">article 4</a>
                     </div>
                 </div>
             </div>
         </header>
+        <div class="card" href="/article1">
+            <img class="card-img-overlay" src="/images/"
+        </div>
         <span class="border-bottom"></span>
 
         <div class="container-fluid">
