@@ -22,67 +22,67 @@
                             <i class="fa fa-times"></i>
                         </details>
                     </div>
-                    <div class="row justify-content-center align-items-center py-3">
+                    <div class="row justify-content-center align-items-center py-3"> <!--  -->
                         <div class="col" title="Vai alla home">
                             <img src="/images/logo-full.svg" alt="Logo ilGiornale.it" width="400"/>
                         </div>
                     </div>
-
-                    <div class="row align-items-center">
-                        <div class="col" title="Cerca">
-                            <i class="fa fa-search"></i>
+                    <div class="col">
+                        <div class="row align-items-center">
+                            <div class="col" title="Cerca">
+                                <i class="fa fa-search"></i>
+                            </div>    
+                            <div class="col">
+                                <details>
+                                    <summary>
+                                        <i class="fa fa-user-o"></i>
+                                    </summary>
+                                    <ul>
+                                        <li>
+                                            <a href="/ilgiornaledigitale">il Giornale digitale</a>
+                                        </li>
+                                        <li>
+                                            <a href="/login">Accedi</a>
+                                        </li>
+                                        <li>
+                                            <a href="/signin">Registrati</a>
+                                        </li>
+                                    </ul>
+                                </details>
+                            </div>
                         </div>
                     </div>
-                    
-                    <div class="col">
-                        <details>
-                            <summary>
-                                <i class="fa fa-user-o"></i>
-                            </summary>
-                            <ul>
-                                <li>
-                                    <a href="/ilgiornaledigitale">il Giornale digitale</a>
-                                </li>
-                                <li>
-                                    <a href="/login">Accedi</a>
-                                </li>
-                                <li>
-                                    <a href="/signin">Registrati</a>
-                                </li>
-                            </ul>
-                        </details>
-                    </div>                            
                 </div>
             </div>
             <!-- HOT -->
             <div class="container">
-                <div class="row align-items-center justify-content-flex-start flex-nowrap">
+                <div class="row align-items-center flex-nowrap py-3"> <!--FIXME make articles not wrapping-->
                     <span class="col-xs-6 d-none d-lg-block pr-2">
                         IN EVIDENZA
                     </span>
-                    <img src="/images/hot.svg" alt="hot" class="pr-2">
+                    <img src="/images/hot.svg" alt="hot" class="pr-3">
                     <div>
-                        <a href="/article1" class="pr-2">article 1</a>
-                        <a href="/article2" class="pr-2">article 2</a>
-                        <a href="/article3" class="pr-2">article 3</a>
-                        <a href="/article4" class="pr-2">article 4</a>
+                        <strong href="/article1.html" class="pr-2" id="hot">Article 1</strong>
+                        <strong href="/article1.html" class="pr-2" id="hot">Article 2</strong>
+                        <strong href="/article1.html" class="pr-2" id="hot">Article 3</strong>
+                        <strong href="/article1.html" class="pr-2" id="hot">Article 4</strong>
                     </div>
                 </div>
             </div>
         </header>
         <main>
             <div class="card" href="/article1">
-                <img class="card-img-overlay img-fluid ml-md-auto mr-sm-auto" src="https://via.placeholder.com/1000x700" alt="Card image">
+                <img class="card-img-overlay img-fluid mt-5 ml-md-5" src="https://via.placeholder.com/1000x700" alt="Card image">
                 <div class="card-img-overlay">
-                    <h1 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</h1>
-                </div>            
+                    <h1><span class="card-title">Lorem ipsum <strong class="card-title">dolor</strong> sit amet, consectetur adipisci elit, sed eiusmod <strong class="card-title">tempor</strong> incidunt ut labore et dolore magna aliqua.</span></h1>
+                </div>
             </div>
         </main>
 
 
         <!-- JavaScript -->
-        <!-- Bootstrap JS (including Popper.js) and jQuery -->
-        <script src="/js/bootstrap.bundle.js"></script>
+        <!--  jQuery and Bootstrap JS (including Popper.js)-->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="/js/bootstrap.bundle.js"></script>
     </body>
 </html>
