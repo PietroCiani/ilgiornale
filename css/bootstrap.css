@@ -10342,3 +10342,14 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/* custom */
+.opening-stripe {
+  position: relative;
+  background: #272727;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 300px;
+  z-index: -1;
+}
