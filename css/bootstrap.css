@@ -54,6 +54,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 header {
   background: white;
+
 }
 
 body {
@@ -266,8 +267,13 @@ input {
   overflow: visible;
 }
 
-input#search{
+#search input{
   border-radius: 0px;
+  font-size: 1.5rem;
+}
+
+#search button {
+  width: 60px;
   font-size: 1.5rem;
 }
 
@@ -4797,7 +4803,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background: none;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -10342,11 +10348,16 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* custom */
 .opening-stripe {
-  position: relative;
+  position: absolute;
   background: #272727;
   left: 0;
   right: 0;
   bottom: 0;
-  height: 300px;
+  height: 50%;
   z-index: -1;
+}
+
+.noisy {
+  background-image: url(/images/noisy.png);
+  background-position: 50% 50%
 }
