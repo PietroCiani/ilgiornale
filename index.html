@@ -7,19 +7,18 @@
         <link rel="stylesheet" href="/css/bootstrap.css">
         <!-- Font Awesome-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>ilGiornale</title>
+        <title>ilGiornale.it - Ultime notizie su attualità, politica ed economia</title>
         <link rel="icon" href="/images/favicon.svg" sizes="any" type="image/svg+xml">
     </head>
     
     <body>
-        <header class="header border-bottom">
+        <header class="header fixed-top border-bottom">
             <div class="container-fluid">
                 <div class="row align-items-center flex-nowrap ">
                     <div class="col">
-                        <details>
-                            <summary><i class="fa fa-bars"></i></summary>
-                            <i class="fa fa-times"></i>
-                        </details>
+                        <button class="btn" type="button" id="menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
                     </div>
                     <div class="row justify-content-center align-items-center py-3"> <!--  -->
                         <div class="col" title="Vai alla home">
@@ -56,26 +55,35 @@
             <!-- HOT -->
             <div class="container">
                 <div class="row align-items-center flex-nowrap py-3"> <!--FIXME make articles not wrapping-->
-                    <span class="col-xs-6 d-none d-lg-block pr-2">
+                    <span class="col-xs-6 d-none d-lg-block pr-3">
                         IN EVIDENZA
                     </span>
-                    <img src="/images/hot.svg" alt="hot" class="pr-3">
-                    <div>
+                    <img src="/images/hot.svg" alt="hot" class="pr-1">
+                    <nav class="navbar" id="navbarNav">
                         <strong href="/article1.html" class="pr-2" id="hot">Article 1</strong>
                         <strong href="/article1.html" class="pr-2" id="hot">Article 2</strong>
                         <strong href="/article1.html" class="pr-2" id="hot">Article 3</strong>
                         <strong href="/article1.html" class="pr-2" id="hot">Article 4</strong>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </header>
         <main>
             <div class="container-fluid" id="opening">
                 <div class="row opening-stripe"></div>
+                <form>
+                    <div class="form-group row my-5 mx-sm-3 mx-xl-5">
+                        <div class="col-11">
+                            <input class="form-control" type="search" placeholder="cerca nel sito" id="search">
+                        </div>
+                        <button class="btn btn-primary col-1 my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                </form>
+
                 <div class="card border-0" href="/article1">
                     <img class="card-img img-fluid mt-5 ml-md-5 pl-lg-5" src="https://via.placeholder.com/1000x700" alt="Card image">
                     <div class="card-img-overlay">
-                        <h1><span class="card-title">Lorem ipsum <strong class="card-title">dolor</strong> sit amet, consectetur adipisci elit, sed eiusmod <strong class="card-title">tempor</strong> incidunt ut labore et dolore magna aliqua.</span></h1>
+                        <h1><span class="card-title">Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipisci elit, sed eiusmod <strong>tempor</strong> incidunt ut labore et dolore magna aliqua.</span></h1>
                     </div>
                 </div>
             </div>
