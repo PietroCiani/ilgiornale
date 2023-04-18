@@ -10361,3 +10361,10 @@ a.text-dark:hover, a.text-dark:focus {
   background-image: url(/images/noisy.png);
   background-position: 50% 50%
 }
+
+.menu a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  flex-wrap: wrap
+}
