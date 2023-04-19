@@ -13,7 +13,8 @@ header .container-fluid {
   background-position: 50% 50%
 }
 
-.menu a {
+.menu a,
+footer a {
   font-weight: bold;
   color: black;
   text-decoration: none;
@@ -101,4 +102,21 @@ header .dropdown .dropdown-divider{
 
 #primo-piano #four-articles a {
   font-size: 0.9rem;
+}
+
+footer .row.bordered {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px 0px 2px 0px;
+}
+
+footer span{
+  margin-bottom: 10px;
+}
+
+footer a.row {
+  padding-left: 15px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  text-decoration: none;
 }
