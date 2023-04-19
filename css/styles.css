@@ -9,7 +9,7 @@ header .container-fluid {
 }
 
 .noisy {
-  background-image: url(/images/noisy.png);
+  background-image: url(./images/noisy.png);
   background-position: 50% 50%
 }
 
