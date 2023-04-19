@@ -8501,6 +8501,10 @@ button.bg-dark:focus {
   padding-left: 3rem !important;
 }
 
+.pl-6 {
+  padding-left: 6rem !important;
+}
+
 .m-n1 {
   margin: -0.25rem !important;
 }
@@ -9564,6 +9568,9 @@ button.bg-dark:focus {
   .px-lg-5 {
     padding-left: 3rem !important;
   }
+  .pl-lg-6 {
+    padding-left: 6rem !important;
+  }
   .m-lg-n1 {
     margin: -0.25rem !important;
   }
@@ -10411,4 +10418,13 @@ header .dropdown .dropdown-divider{
   bottom: 0;
   height: 50%;
   z-index: -1;
+}
+
+main .card img {
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+#opening.container-fluid {
+  padding: 0px;
 }
