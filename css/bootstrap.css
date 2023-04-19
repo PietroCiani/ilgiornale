@@ -10368,3 +10368,23 @@ a.text-dark:hover, a.text-dark:focus {
   text-decoration: none;
   flex-wrap: wrap
 }
+
+.menu .panel {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start
+}
+
+.menu .row {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.menu .in-evidenza a {
+  display: inline-block;
+  padding: 10px;
+  line-height: 1;
+  border: 2px solid black;
+  width: auto;
+  white-space: nowrap
+}

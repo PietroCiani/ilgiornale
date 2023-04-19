@@ -53,50 +53,71 @@
                 </div>
                 <div class="pos-f-t">
                     <div class="collapse" id="navbarToggleExternalContent">
-                        <div>
-                            <form> <!-- Search bar -->
-                                <div class="form-group row mt-4 mx-sm-3 mx-xl-5" id="search">
-                                    <div class="col-11">
-                                        <input class="form-control" type="search" placeholder="cerca nel sito">
+                        <div class="panel mt-4 mx-sm-3 mx-xl-5">
+                            <div>
+                                <form> <!-- Search bar -->
+                                    <div class="form-group row" id="search">
+                                        <div class="col-11">
+                                            <input class="form-control" type="search" placeholder="cerca nel sito">
+                                        </div>
+                                        <button class="btn btn-primary my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
                                     </div>
-                                    <button class="btn btn-primary my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+                                </form>
+                            </div>
+                            <div class="menu container">
+                                <div class="row">
+                                    <!-- ARGOMENTI -->
+                                    <nav class="col-5 argomenti" aria-label="navigazione argomenti">
+                                        <span>ARGOMENTI</span>
+                                        <div class="container">
+                                            <div class="row">
+                                                <a class="col-4" href="/politica.html">Politica</a>
+                                                <a class="col-4" href="/cronache.html">Cronache</a>
+                                                <a class="col-4" href="/cronaca-locale.html">Cronaca locale</a>
+                                            </div>
+                                            <div class="row">
+                                                <a class="col-4" href="/economia.html">Economia</a>
+                                                <a class="col-4" href="/cultura-e-spettacoli.html">Cultura e Spettacoli</a>
+                                                <a class="col-4" href="/mondo.html">Mondo</a>
+                                            </div>
+                                            <div class="row">
+                                                <a class="col-4" href="/tecnologia.html">Tecnologia</a>
+                                                <a class="col-4" href="/salute.html">Salute</a>
+                                                <a class="col-4" href="/lifestyle.html">Lifestyle</a>
+                                            </div>
+                                            <div class="row">
+                                                <a class="col-4" href="/sport.html">Sport</a>
+                                                <a class="col-4" href="/automotive.html">Automotive</a>
+                                                <a class="col-4" href="/over.html">Over</a>
+                                            </div>
+                                        </div>
+                                    </nav>
+                                    <!-- IN EVIDENZA -->
+                                    <nav class="col-3 in-evidenza">
+                                        <span>IN EVIDENZA</span>
+                                        <div class="container">
+                                            <div class="row"><a href="/article1.html">Article 1</a></div>
+                                            <div class="row"><a href="/article2.html">Article 2</a></div>
+                                            <div class="row"><a href="/article3.html">Article 3</a></div>
+                                            <div class="row"><a href="/article4.html">Article 4</a></div>
+                                        </div>
+                                    </nav>
+                                    <nav class="col-3 network">
+                                        <span>NETWORK</span>
+                                        <div class="container">
+                                            <a class="row" href="https://it.insideover.com/" target=_blank>InsideOver</a>
+                                            <a class="row" href="https://piccolenote.ilgiornale.it/" target=_blank>Piccole Note</a>
+                                            <a class="row" href="https://www.timeover.it/" target=_blank>TimeOver</a>
+                                            <a class="row" href="/speciali/fiera-milano.html"  >Fiera Milano</a>
+                                            <a class="row" href="/speciali/ali-milano.html"  >Le ali di Milano</a>
+                                        </div>
+                                    </nav>
+                                    <nav class="col-1 social">
+                                        <span>SEGUICI SUI SOCIAL</span>
+                                        
+                                    </nav>
                                 </div>
-                            </form>
-                        </div>
-                        <div class="menu">
-                            <!-- ARGOMENTI -->
-                            <nav class="argomenti" aria-label="navigazione argomenti">
-                                <span class="">ARGOMENTI</span>
-                                <div class="container-fluid">
-                                    <div class="row">
-                                        <a class="col-4" href="/politica.html">Politica</a>
-                                        <a class="col-4" href="/cronache.html">Cronache</a>
-                                        <a class="col-4" href="/cronaca-locale.html">Cronaca locale</a>
-    
-                                    </div>
-                                    <div class="row">
-                                        <a class="col-4" href="/economia.html">Economia</a>
-                                        <a class="col-4" href="/cultura-e-spettacoli.html">Cultura e Spettacoli</a>
-                                        <a class="col-4" href="/mondo.html">Mondo</a>
-    
-                                    </div>
-                                    <div class="row">
-                                        <a class="col-4" href="/tecnologia.html">Tecnologia</a>
-                                        <a class="col-4" href="/salute.html">Salute</a>
-                                        <a class="col-4" href="/lifestyle.html">Lifestyle</a>
-    
-                                    </div>
-                                    <div class="row">
-                                        <a class="col-4" href="/sport.html">Sport</a>
-                                        <a class="col-4" href="/automotive.html">Automotive</a>
-                                        <a class="col-4" href="/over.html">Over</a>
-    
-                                    </div>
-                                </div>
-                            </nav>
-                            <!-- IN EVIDENZA -->
-                            <nav>
-                            </nav>
+                            </div>    
                         </div>
                     </div>
                 </div>
@@ -108,9 +129,9 @@
                     <img src="/images/hot.svg" alt="hot" class="pr-1">
                     <nav class="navbar flex-nowrap" id="navbarNav">
                         <strong href="/article1.html" class="pr-2" id="hot">Article 1</strong>
-                        <strong href="/article1.html" class="pr-2" id="hot">Article 2</strong>
-                        <strong href="/article1.html" class="pr-2" id="hot">Article 3</strong>
-                        <strong href="/article1.html" class="pr-2" id="hot">Article 4</strong>
+                        <strong href="/article2.html" class="pr-2" id="hot">Article 2</strong>
+                        <strong href="/article3.html" class="pr-2" id="hot">Article 3</strong>
+                        <strong href="/article4.html" class="pr-2" id="hot">Article 4</strong>
                     </nav>
                 </div>
             </div>
