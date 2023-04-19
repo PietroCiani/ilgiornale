@@ -8,7 +8,7 @@
         <!-- Font Awesome-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./css/styles.css">
         <title>ilGiornale.it - Ultime notizie su attualità, politica ed economia</title>
         <link rel="icon" href="./images/favicon.svg" sizes="any" type="image/svg+xml">
     </head>
@@ -134,6 +134,8 @@
                 </div>
             </div>
         </header>
+
+
         <main>
             <!-- OPENING -->
             <div class="container-fluid" id="opening">
@@ -145,23 +147,54 @@
                 </div>
                 <!-- <div class="row opening-stripe noisy"></div>  FIXME why does it overextend to the right? -->
             </div>
+            
             <!-- PRIMO PIANO -->
             <div class="container mt-5 pt-3" id="primo-piano">
                 <div class="row">
-                    <div class="col-8">
-                        <div class="card border-0" href="/article2">
-                            <img src="https://via.placeholder.com/450x300" class="img-fluid card-img-top" alt="card image">
-                            <div class="card-body">
-                                <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit.</h4>
-                                <div class="card-author">
-                                    <span><img src="https://via.placeholder.com/20x20" class="card-author-img rounded-circle mr-2" alt="auth image"><a>Mario Rossi</a></span>
+                    <div class="col-9">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="card border-0" href="/article2">
+                                    <img src="https://via.placeholder.com/450x300" class="img-fluid card-img-top" alt="card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit.</h4>
+                                        <div class="card-author">
+                                            <span><img src="https://via.placeholder.com/20x20" class="card-author-img rounded-circle mr-2" alt="auth image"><a>Mario Rossi</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="card border-0">
+                                            <img src="https://via.placeholder.com/250x125" class="img-fluid card-img-top" alt="card image">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit.</h4>
+                                                <div class="card-author">
+                                                    <span><img src="https://via.placeholder.com/20x20" class="card-author-img rounded-circle mr-2" alt="auth image"><a>Mario Rossi</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="card border-0">
+                                            <img src="https://via.placeholder.com/250x125" class="img-fluid card-img-top .d-block .d-lg-none" alt="card image">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit.</h4>
+                                                <div class="card-author">
+                                                    <span><img src="https://via.placeholder.com/20x20" class="card-author-img rounded-circle mr-2" alt="auth image"><a>Mario Rossi</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="row">
-                            <div class="col">
+                        <div class="row" id="four-articles">
+                            <div class="col-lg-3 col-md-6 col-sm-12">
                                 <div class="card border-0">
                                     <img src="https://via.placeholder.com/250x125" class="img-fluid card-img-top" alt="card image">
                                     <div class="card-body">
@@ -172,11 +205,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
+                            <div class="col-lg-3 col-md-6 col-sm-12">
                                 <div class="card border-0">
-                                    <img src="https://via.placeholder.com/250x125" class="img-fluid card-img-top .d-block .d-lg-none" alt="card image">
+                                    <img src="https://via.placeholder.com/250x125" class="img-fluid card-img-top" alt="card image">
                                     <div class="card-body">
                                         <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit.</h4>
                                         <div class="card-author">
@@ -185,19 +216,31 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="card border-0">
+                                    <img src="https://via.placeholder.com/250x125" class="img-fluid card-img-top" alt="card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit.</h4>
+                                        <div class="card-author">
+                                            <span><img src="https://via.placeholder.com/20x20" class="card-author-img rounded-circle mr-2" alt="auth image"><a>Mario Rossi</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="card border-0">
+                                    <img src="https://via.placeholder.com/250x125" class="img-fluid card-img-top" alt="card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit.</h4>
+                                        <div class="card-author">
+                                            <span><img src="https://via.placeholder.com/20x20" class="card-author-img rounded-circle mr-2" alt="auth image"><a>Mario Rossi</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                    </div>
+                    <div class="col-3"><img src="https://via.placeholder.com/250x1000" alt="ads">(ads)</div>
                 </div>
             </div>
         </main>
