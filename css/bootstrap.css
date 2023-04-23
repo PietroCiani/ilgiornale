@@ -242,11 +242,6 @@ button {
   border-radius: 0;
 }
 
-.header button {
-  border: none;
-  background: none;
-}
-
 button:focus:not(:focus-visible) {
   outline: 0;
 }
@@ -4904,7 +4899,6 @@ input[type="button"].btn-block {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1.25rem;
   border-radius: calc(0.25rem - 1px);
 }
 

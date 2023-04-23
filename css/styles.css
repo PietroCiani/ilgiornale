@@ -9,7 +9,7 @@ header .container-fluid {
 }
 
 .noisy {
-  background-image: url(./images/noisy.png);
+  background-image: url(./../images/noisy.png);
   background-position: 50% 50%
 }
 
@@ -33,6 +33,15 @@ header .dropdown .dropdown-menu {
 header .dropdown .dropdown-divider{
   border-top: 1px solid black;
   border-style: dashed;
+}
+
+header button {
+  border: none;
+  background: none;
+}
+
+header button#search {
+  background-color: yellow;
 }
 
 .menu .panel {
@@ -74,10 +83,16 @@ header .dropdown .dropdown-divider{
   background-color: black;
   color: white;
   max-width: 700px;
+  line-height: 1.4;
 }
 
 #opening.container-fluid {
   padding: 0px;
+}
+.card-img-overlay {
+  position: absolute;
+  padding: 0;
+  margin: 0;
 }
 
 #primo-piano {
