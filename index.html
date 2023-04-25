@@ -22,7 +22,7 @@
                             <i class="fa fa-bars"></i>
                         </button>
                     </div>
-                    <div class="row justify-content-center align-items-center py-3"> <!--  -->
+                    <div class="row justify-content-center align-items-center py-3">
                         <div class="col" title="Vai alla home">
                             <img src="./images/logo-full.svg" class="logo-full" alt="Logo ilGiornale.it" width="385"/>
                         </div>
@@ -62,10 +62,10 @@
                                     </div>
                                 </form>
                             </div>
-                            <div class="menu container">
+                            <div class="menu container-fluid">
                                 <div class="row">
                                     <!-- ARGOMENTI -->
-                                    <nav class="col-5 argomenti" aria-label="navigazione argomenti">
+                                    <nav class="col-6 argomenti" aria-label="navigazione argomenti">
                                         <span>ARGOMENTI</span>
                                         <div class="container">
                                             <div class="row">
@@ -91,7 +91,7 @@
                                         </div>
                                     </nav>
                                     <!-- IN EVIDENZA -->
-                                    <nav class="col-3 in-evidenza">
+                                    <nav class="col-2 in-evidenza">
                                         <span>IN EVIDENZA</span>
                                         <div class="container">
                                             <div class="row"><a href="/article1.html">Article 1</a></div>
@@ -100,7 +100,7 @@
                                             <div class="row"><a href="/article4.html">Article 4</a></div>
                                         </div>
                                     </nav>
-                                    <nav class="col-3 network">
+                                    <nav class="col-2 network">
                                         <span>NETWORK</span>
                                         <div class="container">
                                             <a class="row" href="https://it.insideover.com/" target=_blank>InsideOver</a>
@@ -110,9 +110,13 @@
                                             <a class="row" href="/speciali/ali-milano.html"  >Le ali di Milano</a>
                                         </div>
                                     </nav>
-                                    <nav class="col-1 social">
-                                        <span>SEGUICI SUI SOCIAL</span>
-
+                                    <nav class="col-2 social">
+                                        <span class="row">SEGUICI SUI SOCIAL</span>
+                                        <div class="row">
+                                            <i class="fa fa-facebook-square mx-1" aria-hidden="true"></i>
+                                            <i class="fa fa-twitter-square mx-1" aria-hidden="true"></i>
+                                            <i class="fa fa-instagram mx-1" aria-hidden="true"></i>                
+                                        </div>
                                     </nav>
                                 </div>
                             </div>    
@@ -139,25 +143,25 @@
         <main>
             <!-- OPENING -->
             <div class="container-fluid" id="opening">
-                <div class="card mt-5 mx-xl-auto border-0" href="/article1">
-                    <img class="card-img img-fluid mt-5 mx-xl-auto ml-lg-5 ml-md-4 p-0" src="https://via.placeholder.com/1000x700" alt="Card image">
+                <a class="card mt-5 mx-xl-auto ml-lg-5 ml-md-4 border-0" href="/article1">
+                    <img class="card-img img-fluid justify-content-end mt-5 mx-xl-auto p-0" src="https://via.placeholder.com/1000x700" alt="Card image">
                     <div class="card-img-overlay">
                         <h1><span class="card-title">
                             Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipisci elit,
                             sed eiusmod <strong>tempor</strong> incidunt ut labore et dolore magna aliqua.
                         </span></h1>
                     </div>
-                </div>
+                </a>
                 <!-- TODO: <div class="row opening-stripe noisy"></div> why does it overextend to the right? --> 
             </div>
 
             <!-- PRIMO PIANO -->
-            <div class="container mt-5 pt-3" id="primo-piano">
-                <div class="row">
+            <div class="container px-0 mt-5 pt-3" id="primo-piano">
+                <div class="container mx-0 px-0 row">
                     <div class="col-9">
                         <div class="row">
-                            <div class="col-8">
-                                <div class="card border-0" href="/article2">
+                            <div class="col-lg-8 col-md-12">
+                                <a class="card border-0" href="/article2">
                                     <img src="https://via.placeholder.com/450x300" class="img-fluid card-img-top" alt="card image">
                                     <div class="card-body">
                                         <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit.</h4>
@@ -165,40 +169,32 @@
                                             <span><img src="https://via.placeholder.com/20x20" class="card-author-img rounded-circle mr-2" alt="auth image"><a>Mario Rossi</a></span>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-lg-4 col-md-12">
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="card border-0">
-                                            <img src="https://via.placeholder.com/250x125" class="img-fluid card-img-top" alt="card image">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit.</h4>
-                                                <div class="card-author">
-                                                    <span><img src="https://via.placeholder.com/20x20" class="card-author-img rounded-circle mr-2" alt="auth image"><a>Mario Rossi</a></span>
-                                                </div>
-                                            </div>
+                                <a class="card border-0" href="/article3" id="card-smaller">
+                                    <img src="https://via.placeholder.com/450x300" class="img-fluid card-img-top" alt="card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit.</h4>
+                                        <div class="card-author">
+                                            <span><img src="https://via.placeholder.com/20x20" class="card-author-img rounded-circle mr-2" alt="auth image"><a>Mario Rossi</a></span>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="card border-0">
-                                            <img src="https://via.placeholder.com/250x125" class="img-fluid card-img-top .d-block .d-lg-none" alt="card image">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit.</h4>
-                                                <div class="card-author">
-                                                    <span><img src="https://via.placeholder.com/20x20" class="card-author-img rounded-circle mr-2" alt="auth image"><a>Mario Rossi</a></span>
-                                                </div>
-                                            </div>
+                                </a> 
+                                <a class="card border-0" href="/article4" id="card-smaller">
+                                    <img src="https://via.placeholder.com/450x300" class="img-fluid card-img-top .d-block .d-lg-none" alt="card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit.</h4>
+                                        <div class="card-author">
+                                            <span><img src="https://via.placeholder.com/20x20" class="card-author-img rounded-circle mr-2" alt="auth image"><a>Mario Rossi</a></span>
                                         </div>
                                     </div>
-                                </div>
+                                </a>   
                             </div>
                         </div>
                         <div class="row" id="four-articles">
-                            <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card border-0">
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <a class="card border-0" href="/article1">
                                     <img src="https://via.placeholder.com/250x125" class="img-fluid card-img-top" alt="card image">
                                     <div class="card-body">
                                         <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit.</h4>
@@ -206,10 +202,10 @@
                                             <span><img src="https://via.placeholder.com/20x20" class="card-author-img rounded-circle mr-2" alt="auth image"><a>Mario Rossi</a></span>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card border-0">
+                                <a class="card border-0" href="/article2">
                                     <img src="https://via.placeholder.com/250x125" class="img-fluid card-img-top" alt="card image">
                                     <div class="card-body">
                                         <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit.</h4>
@@ -217,10 +213,10 @@
                                             <span><img src="https://via.placeholder.com/20x20" class="card-author-img rounded-circle mr-2" alt="auth image"><a>Mario Rossi</a></span>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card border-0">
+                                <a class="card border-0" href="/article3">
                                     <img src="https://via.placeholder.com/250x125" class="img-fluid card-img-top" alt="card image">
                                     <div class="card-body">
                                         <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit.</h4>
@@ -228,10 +224,10 @@
                                             <span><img src="https://via.placeholder.com/20x20" class="card-author-img rounded-circle mr-2" alt="auth image"><a>Mario Rossi</a></span>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12">
-                                <div class="card border-0">
+                                <a class="card border-0" href="/article4">
                                     <img src="https://via.placeholder.com/250x125" class="img-fluid card-img-top" alt="card image">
                                     <div class="card-body">
                                         <h4 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisci elit.</h4>
@@ -239,94 +235,95 @@
                                             <span><img src="https://via.placeholder.com/20x20" class="card-author-img rounded-circle mr-2" alt="auth image"><a>Mario Rossi</a></span>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>    
                     </div>
-                    <div class="col-3"><img src="https://via.placeholder.com/250x1000" alt="ads">(ads)</div>
+                    <div class="col-md-3"><img src="https://via.placeholder.com/250x1000?text=ads" alt="ads"></div>
                 </div>
             </div>
+        </main>
 
-            <!-- FOOTER -->
-            <footer>
-                <div class="container-fluid mt-5" id="footer">
-                    <div class="row py-3 px-5 bordered">
-                        <div class="col-md-3 col-xs-12">
-                            <nav>
-                                <div class="mb-3"><span>ARGOMENTI</span></div>
-                                <a class="row" href="/politica.html">Politica</a>
-                                <a class="row" href="/cronache.html">Cronache</a>
-                                <a class="row" href="/cronaca-locale.html">Cronaca locale</a>
-                                <a class="row" href="/economia.html">Economia</a>
-                                <a class="row" href="/cultura-e-spettacoli.html">Cultura e Spettacoli</a>
-                                <a class="row" href="/mondo.html">Mondo</a>
-                                <a class="row" href="/tecnologia.html">Tecnologia</a>
-                                <a class="row" href="/salute.html">Salute</a>
-                                <a class="row" href="/lifestyle.html">Lifestyle</a>
-                                <a class="row" href="/sport.html">Sport</a>
-                                <a class="row" href="/automotive.html">Automotive</a>
-                                <a class="row" href="/over.html">Over</a>
-                            </nav>
-                        </div>
-                        <div class="col-md-3 col-xs-12">
-                            <nav class="mb-3">
-                                <div class="mb-3"><span>EDITORIALI E COMMENTI</span></div>
-                                <a class="row" href="/minzolini.html">L'editoriale di Augusto Minzolini</a>
-                                <a class="row" href="/delvigo.html">Il commento di Francesco Maria Del Vigo</a>
-                            </nav>
-                            <nav>
-                                <div class="mb-3"><span>NETWORK</span></div>
-                                <a class="row" href="/cultura-e-spettacoli.html">Cultura e Spettacoli</a>
-                                <a class="row" href="/mondo.html">Mondo</a>
-                                <a class="row" href="/tecnologia.html">Tecnologia</a>
-                                <a class="row" href="/salute.html">Salute</a>
-                                <a class="row" href="/lifestyle.html">Lifestyle</a>
-                                <a class="row" href="/sport.html">Sport</a>
-                            </nav>
-                        </div>
-                        <div class="col-md-3 col-xs-12">
-                            <nav class="mb-3">
-                                <div class="mb-3"><span>ABBONAMENTI</span></div>
-                                <a class="row" href="/cultura.html">Edizione cartacea</a>
-                                <a class="row" href="/mondo.html">Edizione digitale</a>
-                                <a class="row" href="/tecnologia.html">Riscatta promocodice</a>
-                                <a class="row" href="/salute.html">Termini e condizioni</a>
-                            </nav>
-                            <nav class="mb-3">
-                                <div class="mb-3"><span>ASSISTENZA</span></div>
-                                <a class="row" href="/cultura.html">Suggerimenti</a>
-                                <a class="row" href="/mondo.html">Supporto clienti</a>
-                            </nav>
-                            <nav class="mb-3">
-                                <div class="mb-3"><span>PUBBLICITÀ</span></div>
-                                <a class="row" href="/pubblicita.html">Pubblicità</a>
-                            </nav>
-                        </div>
-                        <div class="col-md-3 col-xs-12">
-                            <nav class="mb-3">
-                                <div class="mb-3"><span>SEGUICI SUI SOCIAL</span></div>
-                                <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                            </nav>
-                            <nav class="mb-3">
-                                <div class="mb-3"><span>APP ILGIORNALE</span></div>
-                                <a class="row" href="/mondo.html">Scarica l'app Android</a>
-                                <a class="row" href="/tecnologia.html">Scarica l'app Apple</a>
-                            </nav>
-                            <nav class="mb-3">
-                                <div class="mb-3"><span>INFO E LOGIN</span></div>
-                                <a class="row" href="/mondo.html">Login</a>
-                                <a class="row" href="/tecnologia.html">Registrati</a>
-                            </nav>
-                        </div>
+        <!-- FOOTER -->
+        <footer>
+            <div class="container-fluid mt-5" id="footer">
+                <div class="row py-3 px-5 bordered">
+                    <div class="col-md-3 col-xs-12">
+                        <nav>
+                            <div class="mb-3"><span>ARGOMENTI</span></div>
+                            <a class="row" href="/politica.html">Politica</a>
+                            <a class="row" href="/cronache.html">Cronache</a>
+                            <a class="row" href="/cronaca-locale.html">Cronaca locale</a>
+                            <a class="row" href="/economia.html">Economia</a>
+                            <a class="row" href="/cultura-e-spettacoli.html">Cultura e Spettacoli</a>
+                            <a class="row" href="/mondo.html">Mondo</a>
+                            <a class="row" href="/tecnologia.html">Tecnologia</a>
+                            <a class="row" href="/salute.html">Salute</a>
+                            <a class="row" href="/lifestyle.html">Lifestyle</a>
+                            <a class="row" href="/sport.html">Sport</a>
+                            <a class="row" href="/automotive.html">Automotive</a>
+                            <a class="row" href="/over.html">Over</a>
+                        </nav>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <nav class="mb-4">
+                            <div class="mb-3"><span>EDITORIALI E COMMENTI</span></div>
+                            <a class="row" href="/minzolini.html">L'editoriale di Augusto Minzolini</a>
+                            <a class="row" href="/delvigo.html">Il commento di Francesco Maria Del Vigo</a>
+                        </nav>
+                        <nav>
+                            <div class="mb-3"><span>NETWORK</span></div>
+                            <a class="row" href="/cultura-e-spettacoli.html">Cultura e Spettacoli</a>
+                            <a class="row" href="/mondo.html">Mondo</a>
+                            <a class="row" href="/tecnologia.html">Tecnologia</a>
+                            <a class="row" href="/salute.html">Salute</a>
+                            <a class="row" href="/lifestyle.html">Lifestyle</a>
+                            <a class="row" href="/sport.html">Sport</a>
+                        </nav>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <nav class="mb-4">
+                            <div class="mb-3"><span>ABBONAMENTI</span></div>
+                            <a class="row" href="/cultura.html">Edizione cartacea</a>
+                            <a class="row" href="/mondo.html">Edizione digitale</a>
+                            <a class="row" href="/tecnologia.html">Riscatta promocodice</a>
+                            <a class="row" href="/salute.html">Termini e condizioni</a>
+                        </nav>
+                        <nav class="mb-4">
+                            <div class="mb-3"><span>ASSISTENZA</span></div>
+                            <a class="row" href="/cultura.html">Suggerimenti</a>
+                            <a class="row" href="/mondo.html">Supporto clienti</a>
+                        </nav>
+                        <nav class="mb-4">
+                            <div class="mb-3"><span>PUBBLICITÀ</span></div>
+                            <a class="row" href="/pubblicita.html">Pubblicità</a>
+                        </nav>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <nav class="mb-4">
+                            <div class="mb-3"><span>SEGUICI SUI SOCIAL</span></div>
+                            <i class="fa fa-facebook-square mx-1" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square mx-1" aria-hidden="true"></i>
+                            <i class="fa fa-instagram mx-1" aria-hidden="true"></i>
+                        </nav>
+                        <nav class="mb-4">
+                            <div class="mb-3"><span>APP ILGIORNALE</span></div>
+                            <a class="row" href="/mondo.html">Scarica l'app Android</a>
+                            <a class="row" href="/tecnologia.html">Scarica l'app Apple</a>
+                        </nav>
+                        <nav class="mb-4">
+                            <div class="mb-3"><span>INFO E LOGIN</span></div>
+                            <a class="row" href="/mondo.html">Login</a>
+                            <a class="row" href="/tecnologia.html">Registrati</a>
+                        </nav>
                     </div>
                 </div>
-                <div class="container-fluid ">
-
-                </div>
-            </footer>
-        </main>
+            </div>
+            <div class="container-fluid ">
+                <!-- TODO: contatti nav -->
+            </div>
+        </footer>
+        
 
 
         <!-- JavaScript -->

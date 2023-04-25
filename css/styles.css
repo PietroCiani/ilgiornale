@@ -64,10 +64,6 @@ header button#search {
   white-space: nowrap
 }
 
-#containerHot nav {
-  align-items: flex-start;
-}
-
 .opening-stripe {
   position: absolute;
   background: #272727;
@@ -78,9 +74,19 @@ header button#search {
   z-index: -1;
 }
 
-.card img {
-  max-width: fit-content;
-  max-height: fit-content;
+@media (min-width: 768px) {
+  #opening .card-img {
+    max-width: 90%;
+    max-height: 90%;
+    vertical-align: bottom;
+  }
+}
+
+@media (min-width: 1200px) {
+  #opening .card-img {
+    max-width: fit-content;
+    max-height: fit-content;
+  }
 }
 
 #opening span.card-title  {
@@ -103,12 +109,24 @@ header button#search {
   background-color: #ededed;
 }
 
+#primo-piano a.card {
+  text-decoration: none;
+}
+
+#primo-piano img {
+  max-width: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
 #primo-piano .card {
   width: fit-content;
 }
 
 #primo-piano .card-title {
   font-weight: bold;
+  text-decoration: none;
 }
 
 #primo-piano .card-author a {
@@ -117,6 +135,7 @@ header button#search {
 
 #primo-piano #four-articles h4.card-title {
   font-size: 1rem;
+  text-decoration: none;
 }
 
 #primo-piano #four-articles a {
@@ -133,7 +152,13 @@ footer span{
   margin-bottom: 10px;
 }
 
+.social i.fa,
+footer i.fa {
+  font-size: 30px;
+}
+
 footer a.row {
+  color: black;
   padding-left: 15px;
   margin-bottom: 5px;
   font-size: 1rem;
