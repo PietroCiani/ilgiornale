@@ -24,7 +24,7 @@
                     </div>
                     <div class="row justify-content-center align-items-center py-3">
                         <div class="col" title="Vai alla home">
-                            <img src="./images/logo-full.svg" class="logo-full" alt="Logo ilGiornale.it" width="385"/>
+                            <img src="./images/logo-full.svg" class="logo-full img-fluid" alt="Logo ilGiornale.it" width="385"/>
                         </div>
                     </div>
                     <div class="col">
@@ -125,10 +125,10 @@
                 </div>
             </div>
             <!-- HOT -->
-            <div class="container-fluid" id="containerHot">
-                <div class="row align-items-center py-2">
-                    <span class="col-xs-6 d-none d-lg-block pl-4">IN EVIDENZA</span>
-                    <img src="./images/hot.svg" alt="hot" class="pl-3 pr-1">
+            <div class="container-fluid">
+                <div class="row align-items-center py-2 pl-4">
+                    <span class="col-xs-6 d-none d-lg-block ">IN EVIDENZA</span>
+                    <img src="./images/hot.svg" alt="hot" class="pl-lg-3 pr-1">
                     <nav class="navbar flex-nowrap" id="navbarNav">
                         <strong href="/article1.html" class="pr-2" id="hot">Article 1</strong>
                         <strong href="/article2.html" class="pr-2" id="hot">Article 2</strong>
@@ -144,12 +144,14 @@
             <!-- OPENING -->
             <div class="container-fluid" id="opening">
                 <a class="card mt-5 mx-xl-auto ml-lg-5 ml-md-4 border-0" href="/article1">
-                    <img class="card-img img-fluid justify-content-end mt-5 mx-xl-auto p-0" src="https://via.placeholder.com/1000x700" alt="Card image">
-                    <div class="card-img-overlay">
-                        <h1><span class="card-title">
-                            Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipisci elit,
-                            sed eiusmod <strong>tempor</strong> incidunt ut labore et dolore magna aliqua.
-                        </span></h1>
+                    <img class="card-img img-fluid justify-content-end mt-5 ml-lg-6 p-0" src="https://via.placeholder.com/1000x700" alt="Card image">
+                    <div class="container card-img-overlay">
+                        <div class="row">
+                            <h1 class="mr-auto ml-3">
+                                <span class="card-title">Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipisci elit,
+                                sed eiusmod <strong>tempor</strong> incidunt ut labore et dolore magna aliqua.</span>
+                            </h1>
+                        </div>
                     </div>
                 </a>
                 <!-- TODO: <div class="row opening-stripe noisy"></div> why does it overextend to the right? --> 

@@ -1,3 +1,8 @@
+.ml-lg-6,
+.mx-lg-6 {
+  margin-left: 5rem !important;
+}
+
 header {
   border-style: solid;
   border-color: black;
@@ -74,11 +79,18 @@ header button#search {
   z-index: -1;
 }
 
+#opening .card-img {
+  display: flex;
+}
+
 @media (min-width: 768px) {
   #opening .card-img {
     max-width: 90%;
     max-height: 90%;
     vertical-align: bottom;
+  }
+  #opening h1 {
+    max-width: 80%;
   }
 }
 
@@ -92,8 +104,8 @@ header button#search {
 #opening span.card-title  {
   background-color: black;
   color: white;
-  max-width: 700px;
   line-height: 1.4;
+  font-size: clamp(31px,5.5vw,54px)
 }
 
 #opening.container-fluid {
