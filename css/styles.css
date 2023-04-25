@@ -11,7 +11,8 @@ header {
   border-width: 0px 0px 2px 0px;
 }
 
-header .container-fluid {
+header .container-fluid,
+#opening.container-fluid {
   max-width: 1200px;
 }
 
@@ -90,6 +91,9 @@ header button#search {
     padding: 0px;
     margin: 0px;
   }
+  #opening .row {
+    justify-content: flex-end !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
@@ -101,12 +105,21 @@ header button#search {
   #opening h1 {
     max-width: 80%;
   }
+  #opening .row {
+    justify-content: flex-end !important;
+  }
 }
 
 @media (min-width: 1200px) {
   #opening .card-img {
     max-width: fit-content;
     max-height: fit-content;
+  }
+  #opening h1 {
+    max-width: 70%;
+  }
+  #opening .row {
+    justify-content: center !important;
   }
 }
 
