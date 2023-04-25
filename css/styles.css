@@ -1,3 +1,9 @@
+@media (min-width: 768px) {
+  header img.logo {
+    max-width: 385px;
+  }
+}
+
 @media (min-width: 992px) {
   .ml-lg-6,
   .mx-lg-6 {
@@ -14,6 +20,23 @@ header {
 header .container-fluid,
 #opening.container-fluid {
   max-width: 1200px;
+}
+
+header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 189px;
+  height: 100%;
+  background-image: url(./../images/logo-full.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+}
+
+header .logo h1 {
+  opacity: 0;
 }
 
 .noisy {
