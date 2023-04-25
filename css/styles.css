@@ -1,6 +1,8 @@
-.ml-lg-6,
-.mx-lg-6 {
-  margin-left: 5rem !important;
+@media (min-width: 992px) {
+  .ml-lg-6,
+  .mx-lg-6 {
+    margin-left: 5rem !important;
+  }
 }
 
 header {
@@ -83,7 +85,14 @@ header button#search {
   display: flex;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767.98px) {
+  #opening img.card-img {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
   #opening .card-img {
     max-width: 90%;
     max-height: 90%;
@@ -101,16 +110,21 @@ header button#search {
   }
 }
 
-#opening span.card-title  {
+#opening span {
   background-color: black;
   color: white;
   line-height: 1.4;
   font-size: clamp(31px,5.5vw,54px)
 }
 
+#opening span.card-author {
+  font-size: clamp(20px,5.5vw,35px)
+}
+
 #opening.container-fluid {
   padding: 0px;
 }
+
 .card-img-overlay {
   position: absolute;
   padding: 0;
