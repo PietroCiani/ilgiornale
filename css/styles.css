@@ -64,6 +64,10 @@ header button#search {
   white-space: nowrap
 }
 
+#containerHot nav {
+  align-items: flex-start;
+}
+
 .opening-stripe {
   position: absolute;
   background: #272727;
