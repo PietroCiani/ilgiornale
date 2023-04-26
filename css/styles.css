@@ -1,6 +1,28 @@
+:root {
+  --azure: #00d1b8;
+}
+
+::selection {
+  background: var(--azure);
+}
+
 @media (min-width: 768px) {
-  header img.logo {
-    max-width: 385px;
+  header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 385px;
+    height: 100%;
+    background-image: url(./../images/logo-full.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  #hot .row {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 }
 
@@ -11,6 +33,26 @@
   }
 }
 
+@media (max-width: 767.98px) {
+  header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 189px;
+    height: 100%;
+    background-image: url(./../images/logo-full.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+  }
+  #hot .row {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px 0px 0px 0px;
+  }
+}
+
 header {
   border-style: solid;
   border-color: black;
@@ -18,21 +60,9 @@ header {
 }
 
 header .container-fluid,
+.container-fluid #opening,
 #opening.container-fluid {
   max-width: 1200px;
-}
-
-header .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 189px;
-  height: 100%;
-  background-image: url(./../images/logo-full.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50% 50%;
 }
 
 header .logo h1 {
@@ -155,10 +185,6 @@ header button#search {
 
 #opening span.card-author {
   font-size: clamp(20px,5.5vw,35px)
-}
-
-#opening.container-fluid {
-  padding: 0px;
 }
 
 .card-img-overlay {
